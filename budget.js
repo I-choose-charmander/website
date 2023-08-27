@@ -10,7 +10,7 @@ function monthly_breakdown(){
 }
 function LivingBreakdown(){
     var income = document.getElementById("inc").value;
-    var living_income = income *5 
+    var living_income = income * .5 
     var mrent = document.getElementById("rent").value;
     var mgroc = document.getElementById("food").value;
     var mutil = document.getElementById("util").value;
