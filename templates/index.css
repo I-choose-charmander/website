@@ -1,0 +1,104 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:inherit;
+    height:inherit;
+   
+}
+#home {
+    background-color:  #5f88b8;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+.topmenu {
+    color: rgb(211, 211, 211);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration:none;
+  }
+  
+.topmenu:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+
+.spinner {
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner span {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #367fdf;
+    opacity: 0;
+}
+
+.spinner span:nth-child(1) {
+    animation: fade 4s ease-in-out 0s infinite;
+}
+
+.spinner span:nth-child(2) {
+    animation: fade 4s ease-in-out 0.33s infinite;
+}
+
+.spinner span:nth-child(3) {
+    animation: fade 4s ease-in-out 0.66s infinite;
+}
+.spinner span:nth-child(4) {
+    animation: fade 4s ease-in-out 0.99s infinite;
+}
+.spinner span:nth-child(5) {
+    animation: fade 4s ease-in-out 1.32s infinite;
+}
+.spinner span:nth-child(6) {
+    animation: fade 4s ease-in-out 1.65s infinite;
+}
+.spinner span:nth-child(7) {
+    animation: fade 4s ease-in-out 1.98s infinite;
+}
+.spinner span:nth-child(8) {
+    animation: fade 4s ease-in-out 2.31s infinite;
+}
+.spinner span:nth-child(9) {
+    animation: fade 4s ease-in-out 2.64s infinite;
+}
+.spinner span:nth-child(10) {
+    animation: fade 4s ease-in-out 2.97s infinite;
+}
+.spinner span:nth-child(11) {
+    animation: fade 4s ease-in-out 3.30s infinite;
+}
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
+img{
+    width: 200px;
+}
+#load{
+    display: grid;
+    justify-content: center;
+}
