@@ -1,10 +1,12 @@
+
+html{
+    height: 100%;
+    background: radial-gradient(ellipse at bottom,#1b2735 0%,#090a0f 100%);
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width:inherit;
     height:inherit;
   }
-
-
 #home {
     background-color:  #5f88b8;
     padding-bottom: 1cm;
@@ -128,11 +130,6 @@ h1{
     display: grid;
     justify-content: center;
 }
-html{
-    height: 100%;
-    background: radial-gradient(ellipse at bottom,#1b2735 0%,#090a0f 100%);
-    overflow: hidden;
-
 }#stars {
     width: 1px;
     height: 1px;
