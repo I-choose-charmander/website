@@ -1,5 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: dimgrey;
     width:inherit;
     height:inherit;
   }
@@ -52,6 +53,6 @@ header {
     color: rgb(240, 234, 245);
 }
 footer {
-    background-color:rgb(240, 234, 245);
+    color:rgb(240, 234, 245);
     margin-top: 20px;
 }
