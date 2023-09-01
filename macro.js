@@ -7,14 +7,13 @@ function BMR(){
     var W = weight /  2.2
     var H = (((feet * 12) + +inches) * 2.54)
     
-    if(document.getElementById("msex").checked == true) {
+    
+    if(document.getElementById("checkbox").checked == false) {
         var bmr = 66.47 + ( 13.75 * W) + ( 5.003 * H ) - ( 6.755 * A )
         document.getElementById("bmr").innerHTML = bmr
-    }else if(document.getElementById("fsex").checked == true){
+    }else if(document.getElementById("checkbox").checked == true){
         var bmr =  (665.1 + (9.563 + W) + (1.850  * H) - (4.676 * A))
         document.getElementById("bmr").innerHTML = bmr
-    }else{
-        alert("please make a selection for sex")
     }
 }
 

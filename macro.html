@@ -10,11 +10,9 @@
         <nav>
             <div id="home">
                 <div class="topdiv">
-                    <a class="topdiv" href="./index.html">Home</a>
                     <a class="topdiv" href="./about me.html">About me</a>
-                    <a class="topdiv" href="./budget.html">Budget</a>
                     <a class="topdiv" href="./unit_conversion.html">Unit Conversion</a>
-                    
+                    <a class="topdiv" href="./index.html">Home</a>
                 </div>
             </div>
         </nav> 
@@ -34,11 +32,14 @@
                         <input type="number" id="weight">
                         <label for="weight">Weight</label><br>
                         <input type="number" id="age">
-                        <label for="age">Age</label><br/>
-                        <input type="checkbox" id="msex" value="Male">
-                        <label for="msex">Male</label><br>
-                        <input type="checkbox" id="fsex" value="Female">
-                        <label for="fsex">Female</label>
+                        <label for="age">Age</label><br>
+                        <div class="container">
+                            <h5>Sex</h5>
+                            <label class="switch" for="checkbox">
+                              <input type="checkbox" id="checkbox" />
+                              <div class="slider round"></div>
+                            </label>
+                          </div>
                         <button id="solve" onclick="BMR()">Calculate</button>
                     </fieldset> 
                     <aside>
