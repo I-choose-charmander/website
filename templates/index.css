@@ -1,3 +1,61 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:inherit;
+    height:inherit;
+  }
+
+
+#home {
+    background-color:  #5f88b8;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+.topmenu {
+    color: lightgray;
+    background-color:   #483355;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration:none;
+    border-radius: 1mm;
+}
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: #382742;
+    text-decoration: underline;
+  }
+
+.iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+}
+header {
+    font-size: 20px;
+    color: rgb(240, 234, 245);
+}
+footer {
+    color:rgb(240, 234, 245);
+    margin-top: 20px;
+}
 .spinner {
     width: 220px;
     height: 100px;
